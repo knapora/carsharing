@@ -1,5 +1,7 @@
 :root {
     --main-color: #FF0000;
+    --accent-color: white;
+    --main-text-color: #000000;
 }
 
 * {
@@ -109,4 +111,27 @@ header {
 .info {
     font-size: 16px;
     margin-bottom: 80px;
+}
+.buttons {
+    font-size: 16px;
+}
+
+.button {
+    padding: 22px 55px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.button-alert {
+    background-color: var(--main-color);
+    color: var(--accent-color)
+}
+
+.button-info {
+    background-color: var(--accent-color);
+    color: var(--main-color);
+}
+
+.space-right {
+    margin-right: 25px;
 }
