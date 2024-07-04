@@ -13,7 +13,7 @@
 } */
 
 body {
-    background-color: black;
+
     color: white;
     font-family: "Nunito Sans", sans-serif;
 }
@@ -26,7 +26,7 @@ header {
 }
 
 .nav-bar {
-   
+
     text-transform: uppercase;
     height: 93px;
     display: flex;
@@ -41,9 +41,9 @@ header {
 .nav-bar::after {
     content: "";
     background-color: rgba(0, 0, 0, .4);
-    position: absolute; 
-    top:0;
-    left:0;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 93px;
     z-index: 0;
@@ -92,8 +92,9 @@ header {
 }
 
 .nav-list a:hover {
-    background-color: rgba(255,255,255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -111,7 +112,9 @@ header {
 .info {
     font-size: 16px;
     margin-bottom: 80px;
+    text-align: center;
 }
+
 .buttons {
     font-size: 16px;
 }
@@ -135,6 +138,7 @@ header {
 .space-right {
     margin-right: 25px;
 }
+
 .arrow {
     width: 55px;
     height: 55px;
@@ -149,3 +153,304 @@ header {
     transform: translate(-50%, 0);
 
 }
+
+.blog {
+    background-color: var(--accent-color);
+    padding-top: 95px;
+    color: var(--main-text-color);
+
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.lines::before,
+.lines::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 50px;
+    background-color: var(--main-color);
+    position: relative;
+    top: 15px;
+}
+
+.lines::before {
+    margin-right: 10px;
+}
+
+.lines::after {
+    margin-left: 10px;
+}
+
+.blog-articles .container {
+
+    display: flex;
+
+}
+
+.blog-article {
+    color: #6A6A6A;
+    margin: 24px auto;
+    width: 352px;
+    height: 516px;
+    
+}
+
+.article-title {
+    font-size: 19px;
+    margin-top: 24px;
+}
+
+.article-photo-img {
+    width: 352px;
+    height: 234px
+}
+
+.article-text {
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+}
+
+.article-btn {
+    width: 142px;
+    height: 40px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 6px #ff00004d;
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    border-radius: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.services {
+    background-color: #28272c;
+    padding: 20px;
+    
+  }
+  
+  .service-container {
+    display: flex;
+    
+  }
+
+  .service-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    
+  }
+  
+  .service-article-photo {
+    width: 170px;
+    height: 170px;
+  }
+  
+.service-title {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    margin: 30px;
+    
+  }
+  
+  .service-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+  }
+  
+  .service-article-photo {
+    width: 170px;
+    height: 170px;
+  }
+
+  
+  .service-article-title {
+    font-size: 19px;
+    color: var(--secondary-color);
+    margin: 15px;
+  }
+  
+  .service-article-text {
+    font-size: 14px;
+    color: #b2b2b2;
+    width: 231px;
+    height: 80px;
+    text-align: center;
+  }
+ 
+  .contact {
+    margin: 30px auto;
+  }
+  
+  .contact-title {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 30px;
+  }
+  .contact-container {
+    width: 904px;
+    margin: 0 auto;
+  }
+  
+  .form-container {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .form-image {
+    width: 444px;
+    height: 317px;
+    margin-right: 16px;
+  }
+  
+  .text-area {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #ff00004d;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    width: 440px;
+    margin-bottom: 20px;
+    font: normal normal normal 14px/16px Nunito Sans;
+    color: #b2b2b2;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .message-area {
+    height: 140px;
+    padding: 12px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 12px;
+  }
+  
+  .consent-box {
+    font: normal normal 300 10px/14px Open Sans;
+    color: #b2b2b2;
+    width: 440px;
+    display: flex;
+    position: relative;
+  }
+  
+  input[type="checkbox"] {
+    appearance: none;
+    position: relative;
+    top: 5px;
+    height: 22px;
+    width: 88px;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-image: url("../images/Icon\ Check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  .form-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+  }
+  
+  .form-btn {
+    width: 142px;
+    height: 40px;
+    font: normal normal bold 14px/19px Nunito Sans;
+    color: #ff0000;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 3px 6px #ff00004d;
+    border: 1px solid #ff0000;
+    border-radius: 40px;
+  }
+  
+  footer {
+    background: #28272c;
+    height: 232px;
+  }
+  
+  .footer-logo {
+    font: normal normal 800 25px/34px Nunito Sans;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 27px;
+    height: 34px;
+  }
+  
+  .footer-logo span {
+    color: var(--main-color);
+    font: normal normal 800 25px/34px Nunito Sans;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1088px;
+    margin: 22px auto;
+  }
+  
+  .footer-links {
+    font: normal normal bold 14px/19px Nunito Sans;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links li:hover {
+    color: var(--main-color);
+  }
+  
+  .footer-links-left {
+    margin-right: 141px;
+  }
+  
+  .copyright {
+    font: normal normal 300 12px/16px Nunito Sans;
+    color: #d1d1d1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
