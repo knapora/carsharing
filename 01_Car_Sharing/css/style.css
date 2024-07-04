@@ -135,3 +135,17 @@ header {
 .space-right {
     margin-right: 25px;
 }
+.arrow {
+    width: 55px;
+    height: 55px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 7px;
+    transform: translate(-50%, 0);
+
+}
